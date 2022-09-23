@@ -64,12 +64,12 @@ export default function Place({ place }: PlacesTemplateProps) {
                   height={image.height}
                   quality={75}
                 />
-                <S.Caption>
+                {/* <S.Caption>
                   <>
                     Você pode ver mais fotos minhas no{' '}
                     <a href="https://unsplash.com/@willianjusten">Unsplash</a>
                   </>
-                </S.Caption>
+                </S.Caption> */}
               </>
             ))}
           </S.Gallery>
